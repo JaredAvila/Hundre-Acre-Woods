@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(75, 75, 75);
+    color: black;
+}
+
+.container{
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.container h1{
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 4px double white;
+}
+
+.container h1 span{
+    color: rgb(255, 145, 19);
+}
+
+.container p{
+    color: black;
+    font-size: 14pt;
+    letter-spacing: 3px;
+}
+
+input, button{
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: background-color 150ms;
+}
+
+input:focus{
+    background-color: #ffe8bd;
+}
+
+button{
+    box-shadow: 2px 2px 8px black;
+    transition: box-shadow 150ms, background-color 150 ms;
+    background-color: rgb(243, 147, 36);
+}
+
+button:active{
+    box-shadow: none;
+    background-color: rgb(194, 110, 14);
+}
