@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Characters</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Marvel Comics</h1>
+            <a href="/"><button id="backBtn">back</button></a>
+        </div>
+        <div id="showcase">
+            <div id="wrap">
+                <div class="column">
+                    <img src=<%=character.pic %>>
+                    <h2>
+                        <%= character.name %>
+                        </h3>
+                </div>
+                <div class="info">
+                    <p><span>Real Name:</span>
+                        <%= character.trueName %>
+                    </p>
+                    <p><span>Origin:</span>
+                        <%= character.bio %>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
