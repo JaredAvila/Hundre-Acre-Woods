@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.showcase{
+    background-color: transparent;
+    background-image: linear-gradient(#060318, rgb(251, 134, 39));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase ol li{
+    padding: 10px;
+}
+
+h1{
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 3px;
+    border-bottom: 4px double white;
+    margin-bottom: 10px;
+}
+
+.wrap ul li{
+    display: block;
+}
+
+.wrap ul li a, .wrap ol li a{
+    color: rgb(202, 49, 10);
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+.header{
+    background-color:#060318;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img{
+    width: fit-content;
+}
+
+.header ul{
+    width: fit-content;
+    margin: auto;
+}
+
+.header ul li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: gray;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: gray;
+    outline: none;
+    cursor: pointer;
+}
+
+.inputs{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}

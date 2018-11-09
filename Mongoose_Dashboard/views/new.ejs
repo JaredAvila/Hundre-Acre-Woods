@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mongoose Dashboard</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pattaya" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <img src="/img/mastersoftheuniverse.jpg" alt="">
+            <ul>
+                <li><a href="/masters">HOME</a></li>
+                <li><a href="/masters/new">NEW</a></li>
+            </ul>
+        </div>
+        <div class="showcase">
+            <div>
+                <h1>New Master: </h1>
+                <form action="/masters" method="POST">
+                    <input class="inputs" type="text" name="name" placeholder="Master's name">
+                    <input class="inputs" type="text" name="superPower" placeholder="Superpower">
+                    <button class="btn" type="submit">Create</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
